@@ -21,7 +21,7 @@ formElement.addEventListener('submit', (e)=>{
             message.textContent = "Success !"
             console.log(data);
             // result.textContent = data
-            result.textContent = `Forecast for given location ${data.address} is ${data.forecast.weather_descriptions}. \n Temparature is ${data.forecast.current_temperatue} but feels like ${data.forecast.feelslike}`
+            result.textContent = `Forecast for given location ${data.address} is ${data.forecast.weather_descriptions}. \n Temparature is ${data.forecast.current_temperatue} but feels like ${data.forecast.feelslike}. Humidity is ${data.forecast.feelslike}`
         })
     })
 })

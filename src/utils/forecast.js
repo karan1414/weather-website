@@ -11,7 +11,8 @@ const getWeather = (latitude, longitude, callback)=>{
             callback('', {
                 weather_descriptions: weatherInfo.current.weather_descriptions[0],
                 current_temperatue: weatherInfo.current.temperature,
-                feelslike: weatherInfo.current.feelslike
+                feelslike: weatherInfo.current.feelslike,
+                humidity: weatherInfo.current.humidity
             })
         } else {
             const weatherInfo = JSON.parse(body)
