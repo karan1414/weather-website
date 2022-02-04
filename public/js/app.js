@@ -1,6 +1,3 @@
-console.log("This is loaded successfullly");
-
-
 const formElement = document.querySelector('form')
 const searchValue = document.querySelector('input')
 const message = document.getElementById('message')
